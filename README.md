@@ -76,7 +76,7 @@ Built a custom Splunk dashboard with two panels:
 | Action | Add to Triggered Alerts |
 | Status | Enabled |
 
-Triggers when more than 3 failed logon attempts are detected on a Windows host within 5 minutes — indicating a potential brute force or credential stuffing attack.
+Triggers when more than 3 failed logon attempts are detected on a Windows host within 5 minutes - indicating a potential brute force or credential stuffing attack.
 
 ---
 
@@ -111,7 +111,7 @@ Triggers when more than 3 failed logon attempts are detected on a Windows host w
 ## Key Learnings
 
 - Splunk Universal Forwarder enables seamless real-time log shipping from Windows to a centralised SIEM
-- EventCode 4625 is the primary Windows Security event for failed logon detection — a core indicator of brute force activity
+- EventCode 4625 is the primary Windows Security event for failed logon detection - a core indicator of brute force activity
 - SPL (Splunk Processing Language) allows fast and flexible querying across large volumes of log data
 - Custom dashboards turn raw log data into actionable visual intelligence for SOC analysts
 - Automated alerts reduce analyst workload by proactively flagging suspicious activity without manual searching
