@@ -58,7 +58,7 @@ index=main source="WinEventLog:Security" EventCode=4625 | stats count by host
 
 ---
 
-## Dashboard — Windows Security Monitor
+## Dashboard - Windows Security Monitor
 
 Built a custom Splunk dashboard with two panels:
 - Failed Logon Attempts Over Time - timechart showing 4625 events across 24 hours
@@ -89,7 +89,7 @@ Triggers when more than 3 failed logon attempts are detected on a Windows host w
 ![Dashboard](screenshots/Dashboard_Setup_complete.png)
 
 ### Windows Security Logs Flowing In
-![Logs Flowing](screenshots/Logs_flowing_.png)
+![Logs Flowing](screenshots/Logs_flowing.png)
 
 ### Failed Logon Events Detected (EventCode 4625)
 ![Failed Logon](screenshots/Failed_login_attempt.png)
@@ -97,14 +97,14 @@ Triggers when more than 3 failed logon attempts are detected on a Windows host w
 ### Failed Logon Alert Search
 ![Alert Search](screenshots/Failed_Logon_Alert.png)
 
-### Dashboard — Failed Logon Attempts Over Time
+### Dashboard - Failed Logon Attempts Over Time
 ![Dashboard Panel 1](screenshots/Failed_Logon_Attempts_in_Dashboard.png)
 
-### Dashboard — Full View with Both Panels
+### Dashboard - Full View with Both Panels
 ![Dashboard Full](screenshots/Top_security_events_in_dashboard_view.png)
 
 ### Alert Listed as Enabled
-![Alert Enabled](screenshots/Failed_Logon_Attept_in_Alerts_.png)
+![Alert Enabled](screenshots/Failed_Logon_Attept_in_Alerts.png)
 
 ---
 
